@@ -14,9 +14,7 @@ gunicorn==20.1.0
 idna==3.1
 itsdangerous==2.0.1
 jinja2==3.0.3
-libxml2==2.9.12
-libxslt==1.1.33
-libzlib==1.2.11
+
 lxml==4.6.4
 markupsafe==2.0.1
 ncurses==6.2
@@ -27,23 +25,28 @@ pyopenssl==21.0.0
 pysocks==1.7.1
 python==3.9.7
 python-docx==0.8.11
-python_abi==3.9
-readline==8.1
+
+
 requests==2.26.0
 setuptools==59.2.0
 six==1.16.0
 soupsieve==2.3
 sqlite==3.36.0
-tk==8.6.11
-tzdata==2021e
+# tk==8.6.11
+# tzdata==2021e
 urllib3==1.26.7
 werkzeug==2.0.1
 wheel==0.37.0
-xz==5.2.5
-zlib==1.2.11
+# xz==5.2.5
+# zlib==1.2.11
 # libiconv
 # libffi
 # libcxx
 # icu
 # dataclasses
 # ca-certificates
+# libxml2==2.9.12
+# libxslt==1.1.33
+# libzlib==1.2.11
+# python_abi==3.9
+# readline==8.1

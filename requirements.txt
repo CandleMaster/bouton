@@ -17,7 +17,7 @@ jinja2==3.0.3
 
 lxml==4.6.4
 markupsafe==2.0.1
-ncurses==6.2
+# ncurses==6.2
 openssl==1.1.1l
 pip==21.3.1
 pycparser==2.21
@@ -25,8 +25,6 @@ pyopenssl==21.0.0
 pysocks==1.7.1
 python==3.9.7
 python-docx==0.8.11
-
-
 requests==2.26.0
 setuptools==59.2.0
 six==1.16.0
@@ -43,7 +41,7 @@ wheel==0.37.0
 # libffi
 # libcxx
 # icu
-# dataclasses
+dataclasses
 # ca-certificates
 # libxml2==2.9.12
 # libxslt==1.1.33

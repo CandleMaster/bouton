@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+{% block head %}
+
+{% endblock%}
+
+{% block body %}
+<h1>Flask is pretty cool</h1>
+<form action="." method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".zip"multiple>
+    <label for="url">url</label>
+    <input type="text" name="url">
+    <label for="translation_option">Mandarin translation?</label>
+    <input type="text" id="translation_option" name="translation_option">
+    <input type="submit" name="submit">
+
+</form>
+{% endblock %}

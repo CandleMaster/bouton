@@ -1,24 +1,49 @@
-beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1631087867185/work
-brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1636012303255/work
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+beautifulsoup4==4.10.0
+brotlipy==0.7.0
+ca-certificates==2021.10.8
 certifi==2021.10.8
-cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1636046181956/work
-chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1635814945668/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1626371162869/work
-click @ file:///Users/runner/miniforge3/conda-bld/click_1635822684275/work
-cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1636041000388/work
-dataclasses @ file:///home/conda/feedstock_root/build_artifacts/dataclasses_1628958434797/work
-Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1633384704162/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1609836280497/work
-itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1621360792037/work
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1636510082894/work
-lxml @ file:///Users/runner/miniforge3/conda-bld/lxml_1635962255054/work
-MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1635833678538/work
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1633192417276/work
-PySocks @ file:///Users/runner/miniforge3/conda-bld/pysocks_1635862544510/work
-python-docx @ file:///home/conda/feedstock_root/build_artifacts/python-docx_1622121039670/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1626393743643/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1636121574387/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1632350318291/work
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1621518206714/work
+cffi==1.15.0
+chardet==4.0.0
+charset-normalizer==2.0.0
+click==8.0.3
+cryptography==35.0.0
+dataclasses==0.8
+flask==2.0.2
+gunicorn==20.1.0
+icu==69.1
+idna==3.1
+itsdangerous==2.0.1
+jinja2==3.0.3
+libcxx==12.0.1
+libffi==3.4.2
+libiconv==1.16
+libxml2==2.9.12
+libxslt==1.1.33
+libzlib==1.2.11
+lxml==4.6.4
+markupsafe==2.0.1
+ncurses==6.2
+openssl==1.1.1l
+pip==21.3.1
+pycparser==2.21
+pyopenssl==21.0.0
+pysocks==1.7.1
+python==3.9.7
+python-docx==0.8.11
+python_abi==3.9
+readline==8.1
+requests==2.26.0
+setuptools==59.2.0
+six==1.16.0
+soupsieve==2.3
+sqlite==3.36.0
+tk==8.6.11
+tzdata==2021e
+urllib3==1.26.7
+werkzeug==2.0.1
+wheel==0.37.0
+xz==5.2.5
+zlib==1.2.11

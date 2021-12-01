@@ -1,3 +1,37 @@
-body{
+/* body{
     background-color:burlywood;
+} */
+
+form,h1{
+    margin: 0 2rem;
+}
+
+input, label{
+    display: block;
+    margin:.5rem;
+}
+
+.file-label, label{
+    margin-top: 1.25rem;
+}
+.url-input,.submit {
+    border-radius: 5px;
+    height: 1.5rem;
+    border:1px rgb(177, 177, 177) solid;
+    padding:.1rem .55rem ;
+    width: 50vw;
+}
+
+b{
+    font-weight:300;
+    font-size: .8rem;
+}
+.submit{
+    background-color: rgb(0, 110, 255);
+    border: none;
+    color:white;
+    width:auto;
+    margin:1.5rem 0.5rem;
+    height:1.75rem;
+    padding:.3rem .85rem .3rem 0.75rem;
 }

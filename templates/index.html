@@ -5,14 +5,15 @@
 {% endblock%}
 
 {% block body %}
-<h1>Flask is pretty cool</h1>
+<h1>Cartridge-Word Converter</h1>
 <form action="." method="POST" enctype="multipart/form-data">
+    <label class="file-label" for="file" required>Zip file <b>(Please rename .imscc to .zip, i.e 'Biology.imscc' -> 'Biology.zip')</b></label>
     <input type="file" name="file" accept=".zip"multiple>
-    <label for="url">url</label>
-    <input type="text" name="url">
-    <label for="translation_option">Mandarin translation?</label>
-    <input type="text" id="translation_option" name="translation_option">
-    <input type="submit" name="submit">
+    <label for="url" >Playlist URL <b>(if it applies)</b></label>
+    <input class="url-input" type="text" placeholder="Playlist URL" name="url">
+    <!-- <label for="translation_option">Mandarin translation?</label>
+    <input type="text" id="translation_option" name="translation_option"> -->
+    <input class="submit" type="submit" name="submit" value="Convert">
 
 </form>
 {% endblock %}

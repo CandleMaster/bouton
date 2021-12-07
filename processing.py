@@ -140,4 +140,4 @@ def extract_to_doc(f,url):
         file_stream = io.BytesIO()
         doc.save(file_stream)
         file_stream.seek(0)
-        return send_file(file_stream, as_attachment=True, attachment_filename='report.docx')
+        return send_file(file_stream, as_attachment=True, attachment_filename='mapped.docx')

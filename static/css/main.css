@@ -1,6 +1,11 @@
 form,h1{
     margin: 0 2rem;
 }
+i{
+    color: rgb(199, 17, 17);
+    /* font-size: .25rem; */
+    vertical-align: super;
+}
 
 input, label{
     display: block;

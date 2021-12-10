@@ -7,9 +7,9 @@
 {% block body %}
 <h1>Cartridge-Word Converter</h1>
 <form action="." method="POST" enctype="multipart/form-data">
-    <label class="file-label" for="file" required><i>*</i>Zip file <b>(Please rename .imscc to .zip, i.e 'Biology.imscc' -> 'Biology.zip')</b></label>
-    <input type="file" name="file" accept=".zip"multiple required>
-    <label for="url" >Playlist URL <b>(if CC is based on a playlist)</b></label>
+    <label class="file-label" for="file" required><i>*</i>Cartridge file <b>(e.g. 'Biology.imscc')</b></label>
+    <input type="file" name="file" accept=".imscc" required>
+    <label for="url" >Playlist URL <b>(or CORE/SE Engish site URL)</b></label>
     <input class="url-input" type="text" placeholder="Playlist URL" name="url">
     <!-- <label for="translation_option">Mandarin translation?</label>
     <input type="text" id="translation_option" name="translation_option"> -->

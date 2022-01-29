@@ -1,6 +1,6 @@
 # bouton
 
-This is web application is designed and developed for the use of JoVE's internal staff. It scrapes playlist url and titles from compressed file (.imscc), indexes to the order of official playlist from Jove.com, and is outputted in ready-for-professor docx format.
+This web application is designed and developed for the use of JoVE's internal staff. It scrapes playlist url and titles from compressed file (.imscc), indexes to the order of official playlist from Jove.com, and is outputted in ready-for-professor docx format.
 
 See live website: https://bouton-converter.herokuapp.com/
 
